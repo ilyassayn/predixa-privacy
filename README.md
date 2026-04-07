@@ -1,43 +1,104 @@
-Privacy Policy
-Last updated: April 2026
+Privacy Policy for Predixa AI
 
-Predixa AI ("we", "our", or "us"), operated by CognifyLabs, is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.
+  Last updated: April 7, 2026
 
-1. Information We Collect
-Device ID: A unique anonymous identifier generated on your device to manage your access and preferences. This ID is not linked to your personal identity.
-FCM Token: Firebase Cloud Messaging token used solely to send you push notifications about new predictions.
-Language & Region: Your device language and region settings to deliver localized content.
-Purchase Information: When you make in-app purchases, Google Play processes your payment. We receive only a purchase token to verify your subscription status — no payment details are stored by us.
-2. Information We Do NOT Collect
-We do not collect your name, email address, or any personal identity information.
-We do not collect your location data.
-We do not collect or store payment card details.
-We do not track your activity across other apps or websites.
-3. How We Use Your Information
-To deliver personalized sports predictions in your language.
-To send push notifications about new daily coupons and predictions.
-To verify your subscription or credit purchase status.
-To improve the quality and accuracy of our AI predictions.
-4. Third-Party Services
-We use the following third-party services:
+  This Privacy Policy describes how Predixa AI ("we", "our", or "the app")
+  collects, uses, and protects information when you use our application.
 
-Google Play Billing: For processing in-app purchases and subscriptions.
-Firebase (Google): For push notifications.
-Google AdMob: For displaying advertisements to free users.
-Anthropic Claude AI: For generating sports predictions (match data is processed, no personal data is shared).
-5. Data Retention
-Your anonymous device ID and preferences are retained as long as you use the application. You may request deletion at any time by contacting us.
+  ---
 
-6. Children's Privacy
-Predixa AI is not intended for users under 18 years of age. We do not knowingly collect information from minors. Sports betting and gambling-related content is strictly for adults.
+  1. INFORMATION WE COLLECT
 
-7. Disclaimer
-Predixa AI provides sports analysis and predictions for informational purposes only. We do not encourage or facilitate illegal betting activities. Users are solely responsible for complying with the laws and regulations of their jurisdiction regarding sports betting.
+  Device Identifier
+  We generate and store a random device identifier (device ID) on your device.
+  This ID is used to manage your subscription status, unlocked content, and
+  free coupon credits. It is not linked to your name, email, or any personally
+  identifiable information.
 
-8. Changes to This Policy
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page. Continued use of the app after changes constitutes acceptance.
+  Usage Data
+  We collect anonymous data about how you interact with the app (screens viewed,
+  features used) to improve our service.
 
-9. Contact Us
-CognifyLabs
-Email: ai.CognifyLabs@gmail.com
-Application: Predixa AI
+  ---
+
+  2. THIRD-PARTY SERVICES
+
+  Google AdMob
+  We use Google AdMob to display advertisements. AdMob may collect device
+  information and advertising identifiers to serve personalized or
+  non-personalized ads. You can opt out of personalized ads via your device
+  settings under Google → Ads → Opt out of Ads Personalization.
+  AdMob Privacy Policy: https://policies.google.com/privacy
+
+  Firebase Cloud Messaging
+  We use Firebase Cloud Messaging (FCM) to send push notifications about
+  daily predictions. FCM may collect your device token to deliver
+  notifications. You can disable notifications at any time in your device
+  settings.
+  Firebase Privacy Policy: https://firebase.google.com/support/privacy
+
+  Google Play Billing
+  Subscription and in-app purchases are processed by Google Play. We do not
+  store your payment information. All billing is handled by Google.
+  Google Play Privacy Policy: https://policies.google.com/privacy
+
+  ---
+
+  3. HOW WE USE YOUR INFORMATION
+
+  - To provide daily AI-powered sports predictions
+  - To manage your subscription and unlocked content
+  - To send prediction notifications (with your permission)
+  - To display relevant advertisements
+  - To improve app performance and user experience
+
+  ---
+
+  4. DATA RETENTION
+
+  Your device ID and associated data (subscription status, credits) are stored
+  on our secure servers hosted by Render (render.com). We retain this data
+  as long as you use the app or until you request deletion.
+
+  ---
+
+  5. DATA SHARING
+
+  We do not sell, trade, or share your personal information with third parties,
+  except as required to operate the app (AdMob, Firebase, Google Play) or as
+  required by law.
+
+  ---
+
+  6. CHILDREN'S PRIVACY
+
+  Predixa AI is intended for users aged 18 and older. Sports betting analysis
+  content is not suitable for minors. We do not knowingly collect data from
+  children under 18.
+
+  ---
+
+  7. YOUR RIGHTS
+
+  You may request deletion of your data at any time by contacting us. Upon
+  request, we will delete your device ID and all associated data from our
+  servers within 30 days.
+
+  ---
+
+  8. CHANGES TO THIS POLICY
+
+  We may update this Privacy Policy from time to time. We will notify you of
+  significant changes via in-app notification. Continued use of the app after
+  changes constitutes acceptance of the updated policy.
+
+  ---
+
+  9. CONTACT
+
+  If you have questions about this Privacy Policy, contact us at:
+  [your-email@domain.com]
+
+  ---
+
+  © 2026 Predixa AI. All rights reserved.
