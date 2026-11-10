@@ -24,12 +24,37 @@
   footer { margin-top: 48px; font-size: 13px; color: #3a3a4a; border-top: 1px solid #1a1a2e;
            padding-top: 20px; }
 </style>
+<!--dil-->
+<style>
+  .langbar { display: flex; justify-content: flex-end; margin-bottom: 20px; }
+  .langbar select { background: #111120; color: #c0bcb6; border: 1px solid #1a1a2e; border-radius: 8px;
+                    padding: 6px 10px; font: inherit; font-size: 13px; }
+  .note { font-size: 13px; color: #8a8a9a; border-inline-start: 2px solid #1a1a2e;
+          padding-inline-start: 12px; margin: -24px 0 32px; }
+  ul { padding-left: 0; padding-inline-start: 20px; }
+</style>
+<!--/dil-->
+<!--dil--><script>
+(function () {
+  if (/[?&]lang=en\b/.test(location.search)) return;
+  var var_ = ['ar','cs','da','de','el','es','fi','fr','he','hu','it','ja','ko','nb','nl','pl','pt','ro','ru','sv','tr','uk','zh','zh-TW'];
+  var l = (navigator.languages || [navigator.language || '']);
+  for (var i = 0; i < l.length; i++) {
+    var t = (l[i] || '').toLowerCase(), k = t.split('-')[0];
+    if (k === 'en') return;
+    if (k === 'zh') k = /-(tw|hk|mo|hant)/.test(t) ? 'zh-TW' : 'zh';
+    if (k === 'no' || k === 'nn') k = 'nb';
+    if (var_.indexOf(k) >= 0) { location.replace(k + '/' + location.hash); return; }
+  }
+})();
+</script><!--/dil-->
 </head>
 <body>
 <div class="container">
+  <!--dil--><nav class="langbar"><select aria-label="Language" onchange="location.href=this.value"><option value="./?lang=en" selected lang="en">English</option><option value="ar/" lang="ar">العربية</option><option value="cs/" lang="cs">Čeština</option><option value="da/" lang="da">Dansk</option><option value="de/" lang="de">Deutsch</option><option value="el/" lang="el">Ελληνικά</option><option value="es/" lang="es">Español</option><option value="fi/" lang="fi">Suomi</option><option value="fr/" lang="fr">Français</option><option value="he/" lang="he">עברית</option><option value="hu/" lang="hu">Magyar</option><option value="it/" lang="it">Italiano</option><option value="ja/" lang="ja">日本語</option><option value="ko/" lang="ko">한국어</option><option value="nb/" lang="nb">Norsk</option><option value="nl/" lang="nl">Nederlands</option><option value="pl/" lang="pl">Polski</option><option value="pt/" lang="pt">Português</option><option value="ro/" lang="ro">Română</option><option value="ru/" lang="ru">Русский</option><option value="sv/" lang="sv">Svenska</option><option value="tr/" lang="tr">Türkçe</option><option value="uk/" lang="uk">Українська</option><option value="zh/" lang="zh">简体中文</option><option value="zh-TW/" lang="zh-TW">繁體中文</option></select></nav><!--/dil-->
   <div class="logo">Predixa AI</div>
   <h1>Privacy Policy</h1>
-  <div class="updated">Last updated: September 13, 2026</div>
+  <div class="updated">Last updated: November 10, 2026</div>
 
   <p>This Privacy Policy explains how Predixa AI ("we", "our", or "the app") collects, uses, and protects information when you use our application. By using Predixa AI, you agree to the practices described in this policy.</p>
 
@@ -75,8 +100,7 @@
       <li><strong>Sign in with Apple</strong> — optional authentication on iPhone and iPad, including Hide My Email relay addresses. <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a></li>
       <li><strong>Apple App Store &amp; In-App Purchase</strong> — processes all purchases and subscriptions on iPhone and iPad and notifies our servers of renewals, cancellations and refunds. <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a></li>
       <li><strong>Apple Push Notification service (APNs)</strong> — delivers push notifications on iPhone and iPad. <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a></li>
-      <li><strong>Fly.io</strong> — hosts our application servers in the EU (Frankfurt region). <a href="https://fly.io/legal/privacy-policy/" target="_blank">Privacy Policy</a></li>
-      <li><strong>Neon</strong> — hosts our database in the EU (Frankfurt region). <a href="https://neon.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+      <li><strong>Fly.io</strong> — hosts our application servers and our database in the EU (Frankfurt region). <a href="https://fly.io/legal/privacy-policy/" target="_blank">Privacy Policy</a></li>
     </ul>
     <p>Apart from Google AdMob, which acts as an advertising network, these providers act as processors on our behalf. We do not sell your data and we do not share it with data brokers.</p>
   </div>
@@ -84,7 +108,7 @@
   <div class="section">
     <h2>3. How We Use Your Information</h2>
     <ul>
-      <li>To deliver daily AI-powered football predictions and analysis</li>
+      <li>To deliver daily football predictions and analysis (and, on iPhone and iPad, basketball predictions as well)</li>
       <li>To manage your subscription, credits, and unlocked content</li>
       <li>To send prediction and result notifications (only with your permission)</li>
       <li>To occasionally inform you about new features, subscription offers, or promotions via notifications (only with your permission)</li>
